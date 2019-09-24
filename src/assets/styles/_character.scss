@@ -1,0 +1,21 @@
+.characterCardContainer{
+    height:1000px;
+    margin-bottom: 30px;
+    margin-top: 15%;
+
+    .cardImage{
+        height: 400px;
+        width: 400px;
+    }
+
+    .characterCard{
+        background-color: black !important;
+        color: white;
+        height: 900px;
+    
+    
+        .characterTitle{
+            font-size: 70px;
+        }
+    }
+}

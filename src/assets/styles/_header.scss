@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  transition: background 0.5s ease;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  text-decoration: none;
+}
+
+ul {
+  padding-inline-start: 0px;
+
+  li a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Verdana, Tahoma, sans-serif, bold;
+  }
+}
+
+li:hover,
+a:hover {
+  color: #2f1a5a;
+  text-decoration: none;
+}
+
+nav {
+  width: 95%;
+  padding-top: 1vh;
+  margin-top: 10px;
+  text-decoration: none;
+
+  ul {
+    list-style: none;
+    text-align: right;
+
+    li {
+      display: inline-block;
+
+      a {
+        display: block;
+        padding: 25px;
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+        font-family: Verdana, Tahoma, sans-serif;
+        transition: all 0.5s;
+
+        &:after,
+        &:before {
+          transition: all 0.5s;
+        }
+
+        &:hover {
+          color: #5500ff;
+        }
+      }
+    }
+  }
+
+  &.stroke ul li a,
+  &.fill ul li a {
+    position: relative;
+    text-decoration: none;
+  }
+
+  &.stroke ul li a:after,
+  &.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: ".";
+    color: transparent;
+    background: #5500ff;
+    height: 5px;
+  }
+
+  &.stroke ul li a:hover:after {
+    width: 100%;
+  }
+}
