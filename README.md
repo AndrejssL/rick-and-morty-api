@@ -19,10 +19,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/AndrejssL/rick-and-morty-api">
-    <img src="https://coverfiles.alphacoders.com/569/56960.png" alt="Logo" width="1500" height="500">
+    <img src="https://cdn11.bigcommerce.com/s-h28kc1m5v1/images/stencil/1280x1280/products/967/4675/Rick_morty_circlem__42861.1512616880.jpg?c=2&imbypass=on" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best Rick and Morty Website</h3>
+  <h3 align="center">Rick-and-Morty</h3>
 
   <p align="center">
     An awesome Rick and Morty website!
@@ -67,8 +67,9 @@ Website for a popular adult TV show 'Rick and Morty' where you can see all your 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [React](https://reactjs.org)
+* [GraphQl - React Apollo](https://www.apollographql.com/docs/react/) 
+* [SASS](https://sass-lang.com/)
 
 
 
@@ -87,30 +88,21 @@ npm install npm@latest -g
 ```
 
 ### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
 ```sh
-git clone https:://github.com/your_username_/Project-Name.git
+git clone https://github.com/AndrejssL/rick-and-morty-api.git
 ```
 3. Install NPM packages
 ```sh
 npm install
 ```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
 
 
-
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES 
 ## Usage
-
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
 _For more examples, please refer to the [Documentation](https://example.com)_
-
+-->
 
 
 <!-- ROADMAP -->
@@ -133,19 +125,18 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- LICENSE -->
+<!-- LICENSE
 ## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.-->
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Andrejs Lavrinovičs - [Website](https://andrejslavrinovics.netlify.com/) - lavrinovics.andrejs@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/AndrejssL/rick-and-morty-api](https://github.com/AndrejssL/rick-and-morty-api)
 
 
 
@@ -170,15 +161,15 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/AndrejssL/rick-and-morty-api/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[forks-url]: https://github.com/AndrejssL/rick-and-morty-api/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/AndrejssL/rick-and-morty-api/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-url]: hhttps://github.com/AndrejssL/rick-and-morty-api/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://lv.linkedin.com/in/andrejs-lavrinovics
 [product-screenshot]: images/screenshot.png
