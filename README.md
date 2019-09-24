@@ -18,8 +18,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://coverfiles.alphacoders.com/569/56960.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/AndrejssL/rick-and-morty-api">
+    <img src="https://coverfiles.alphacoders.com/569/56960.png" alt="Logo" width="1500" height="500">
   </a>
 
   <h3 align="center">Best Rick and Morty Website</h3>
