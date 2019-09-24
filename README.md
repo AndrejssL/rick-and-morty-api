@@ -65,7 +65,6 @@
 Website for a popular adult TV show 'Rick and Morty' where you can see all your favourite characters, locations and also all aired episodes!
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Bootstrap](https://getbootstrap.com)
 * [React](https://reactjs.org)
 * [GraphQl - React Apollo](https://www.apollographql.com/docs/react/) 
@@ -76,12 +75,10 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
 ```sh
 npm install npm@latest -g
