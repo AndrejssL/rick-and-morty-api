@@ -160,13 +160,13 @@ Project Link: [https://github.com/AndrejssL/rick-and-morty-api](https://github.c
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/AndrejssL/rick-and-morty-api.svg?style=flat-square
 [contributors-url]: https://github.com/AndrejssL/rick-and-morty-api/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/AndrejssL/rick-and-morty-api.svg?style=flat-square
 [forks-url]: https://github.com/AndrejssL/rick-and-morty-api/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/AndrejssL/rick-and-morty-api.svg?style=flat-square
 [stars-url]: https://github.com/AndrejssL/rick-and-morty-api/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/AndrejssL/rick-and-morty-api.svg?style=flat-square
 [issues-url]: hhttps://github.com/AndrejssL/rick-and-morty-api/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
