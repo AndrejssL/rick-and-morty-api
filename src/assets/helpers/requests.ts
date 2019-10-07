@@ -85,3 +85,19 @@ export const FETCH_LOCATIONS = gql`
       }
   }
 `;
+
+export const FETCH_EP_CHARS = gql`
+query fetchEpisode($id: ID) {
+  episode(id: $id) {
+    id
+    name
+    air_date
+    episode
+    characters {
+      id
+      name
+      image
+    }
+  }
+}
+`;

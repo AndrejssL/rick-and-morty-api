@@ -6,13 +6,16 @@ export const Header: React.FC = () => {
       <nav className="stroke">
         <ul>
           <li>
-            <a href="/">Home Page</a>
+            <a href="/">HOME PAGE</a>
           </li>
           <li>
-            <a href="/planets">Visit All Planets</a>
+            <a href="/planets">VISIT ALL PLANETS</a>
           </li>
           <li>
-            <a href="/episodes">See All Episodes</a>
+            <a href="/episodes">SEE ALL EPISODES</a>
+          </li>
+          <li>
+            <a href="#">BACK TO TOP</a>
           </li>
         </ul>
       </nav>

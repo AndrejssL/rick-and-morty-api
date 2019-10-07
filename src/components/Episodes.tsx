@@ -13,7 +13,11 @@ export const Episodes: React.FC = () => {
     { variables: { page: 1 } }
   );
   if (loading || !data || !data.episodes) {
-    return (<div style={{marginTop: '20%'}}><LoadingSpinner /></div>);
+    return (
+      <div style={{ marginTop: "20%" }}>
+        <LoadingSpinner />
+      </div>
+    );
   }
   const episodes = loading || !data ? [] : data.episodes.results;
 
@@ -45,12 +49,16 @@ export const Episodes: React.FC = () => {
               <div className="face face1">
                 <div className="content">
                   <Link to={"/episodes/" + it.id}>
-                    <button className="btn draw-border">Learn More!</button>
+                    <button className="btn draw-border">
+                      <p>{it.name}</p>
+                    </button>
                   </Link>
                 </div>
               </div>
               <div className="face face2">
-                <h2>{it.name}</h2>
+                <button className="btn draw-border">
+                  <h2> Learn More!</h2>
+                </button>
               </div>
             </div>
             {i === episodes.length - 3 && (

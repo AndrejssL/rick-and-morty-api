@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, RouteComponentProps } from "react-router-dom";
-import { Card, Nav, Tab, Row, Col, ListGroup } from "react-bootstrap";
+import { Card, Col } from "react-bootstrap";
 import { useQuery } from "@apollo/react-hooks";
 import { LoadingSpinner } from "../assets/helpers/Spinner";
 import {
@@ -21,6 +21,7 @@ export const Character: React.FC<RouteComponentProps<MatchParams>> = ({
     return <LoadingSpinner />;
   }
   const character = data.character;
+  const episode = character.episode;
   return (
     <div className="characterCardContainer">
       <Card className="characterCard">
@@ -36,41 +37,36 @@ export const Character: React.FC<RouteComponentProps<MatchParams>> = ({
           <Card.Text> Species: {character.species}</Card.Text>
           <Card.Text> Origin: {character.origin.name}</Card.Text>
           <Card.Text> Gender: {character.gender}</Card.Text>
-          <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-            <Row>
-              <Col sm={3}>
-                <Nav variant="pills" className="flex-column">
-                  <Nav.Item>
-                    <Nav.Link eventKey="first">Episodes</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="second">Planets</Nav.Link>
-                  </Nav.Item>
-                </Nav>
-              </Col>
-              <Col sm={9}>
-                <Tab.Content>
-                  <Tab.Pane eventKey="first">
-                    <ListGroup>
-                      This character has first appeared on this episode:
-                      <ListGroup.Item variant="dark">
-                        {character.episode.map(it => it.name + ", ")}
-                      </ListGroup.Item>
-                    </ListGroup>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="second">Sorry, if you see this!</Tab.Pane>
-                </Tab.Content>
-              </Col>
-            </Row>
-          </Tab.Container>
-          <a data-label="planets" href="/planets" className="FooterLinks" >
-            <Link
-              to={"/planets/:id" + character.location.id}
-              style={{ textDecoration: "none", marginTop: '30px', textAlign: 'center'}}
-            >
-              Learn more about this characters planet!
-            </Link>
-          </a>
+          <Link to={"/planets/:id" + character.location.id} style={{textDecoration: 'none', color: 'lightblue'}}>
+            <Card.Text> Location: {character.location.name}</Card.Text>
+          </Link>
+          <p style={{marginTop: '20px'}}>This character has first appeared on this episode:</p>
+          <div className="character-card-body">
+            <div className="character-card-container">
+              {episode.map((it, i) => (
+                <Col key={i}>
+                  <div className="character-card" key={i}>
+                    <div className="face face1">
+                      <div className="content">
+                        <Link to={"/characters/" + it.id}>
+                          <button className="btn draw-border">
+                            <p>{it.name}</p>
+                          </button>
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="face face2">
+                      <button className="btn draw-border">
+                        <h2> Learn More!</h2>
+                      </button>
+
+                      {/* <img src={it.image} alt="Image of character"></img> */}
+                    </div>
+                  </div>
+                </Col>
+              ))}
+            </div>
+          </div>
         </Card.Body>
       </Card>
     </div>

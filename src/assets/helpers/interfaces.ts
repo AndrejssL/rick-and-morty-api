@@ -64,3 +64,11 @@ export interface EpisodeData {
   export interface CharacterDataForAllCharacters {
     characters: Characters
   }
+
+  export interface EpResponse {
+    episode: Episode;
+  }
+
+  export interface SingleResponseVars {
+    id: number
+  }

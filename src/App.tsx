@@ -10,8 +10,8 @@ import { Planets } from './components/Planets';
 import { Episodes } from './components/Episodes';
 import { client } from './apollo';
 import { Header } from './components/Header';
-import { Footer } from './components/Footer';
 import "bootstrap/dist/css/bootstrap.css";
+import { SingleEpisode } from './components/SingleEpisode';
 
 const App: React.FC = () => {
   return (
@@ -24,8 +24,8 @@ const App: React.FC = () => {
         <Route path="/characters/:id" exact component={Character} />
         <Route path="/planets/" exact component={Planets} />
         <Route path="/episodes/" exact component={Episodes} />
+        <Route path="/episodes/:id" exact component={SingleEpisode} />
       </Container>
-        <Footer />
     </ApolloProvider>
     </Router>
   );

@@ -26,14 +26,16 @@ export const Planets: React.FC = () => {
                 <div className="face face1">
                   <div className="content">
                   <Link to={"/planets/" + it.id}>
-                    <button className="btn draw-border">
-                      Learn More!
+                  <button className="btn draw-border">
+                      <p>{it.name}</p>
                     </button>
                     </Link>
                   </div>
                 </div>
                 <div className="face face2">
-                  <h2>{it.name}</h2>
+                <button className="btn draw-border">
+                  <h2> Learn More!</h2>
+                </button>
                 </div>
               </div>
               {i === location.length - 5 && (<InfintePlanets/>)}
